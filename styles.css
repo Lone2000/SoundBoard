@@ -1,0 +1,39 @@
+body{
+    width:100vw;
+    height:100vh;
+    background: wheat;
+    display: flex;
+    align-items: center;;
+    overflow: hidden;
+  }
+  .soundboard{
+    display:flex;
+    width:100%;
+    justify-content:center;
+  }
+  .sound{
+    display: flex;
+    flex-direction:column;
+    margin-right: 20px;
+    row-gap: 15px;
+  }
+  
+  .btn{
+    padding: 20px 40px;
+    background: red;
+    border: 2px solid black;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .btn:hover {background-color: #880808}
+  .btn:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  .sound-info{
+    font-style:italic;
+    text-align:center;
+  }
